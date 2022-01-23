@@ -1,0 +1,10 @@
+.article {
+    padding: 30px 15px;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.article__list {
+    margin-top: 20px;
+    padding-left: 24px;
+}

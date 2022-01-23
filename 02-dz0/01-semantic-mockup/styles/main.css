@@ -1,0 +1,12 @@
+.main {
+    padding: 10px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.main__article:not(:last-of-type) {
+    margin-bottom: 5px;
+}
