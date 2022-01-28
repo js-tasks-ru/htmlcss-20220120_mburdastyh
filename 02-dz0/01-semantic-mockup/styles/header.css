@@ -1,0 +1,9 @@
+.header {
+    background-color: red;
+}
+
+.header__title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}

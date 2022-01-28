@@ -1,0 +1,9 @@
+.footer {
+    background-color: blueviolet;
+}
+
+.footer__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+}

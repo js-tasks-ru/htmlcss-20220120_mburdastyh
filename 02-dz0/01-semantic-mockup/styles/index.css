@@ -1,0 +1,14 @@
+@import "root.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+@import "article.css";
+@import "navigation.css";
+
+html {
+    height: 100vh;
+}
+
+h1, h2, ul, ol {
+    margin: 0;
+}
