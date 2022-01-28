@@ -1,0 +1,19 @@
+.button_type_alternate {
+    --alternate-color: var(--white);
+    --text-color: var(--black);
+    --border-color: var(--grey-3);
+    --border-hover-color: var(--black);
+
+    border: 1px solid var(--border-color);
+    background-color: var(--alternate-color);
+    color: var(--text-color);
+}
+
+.button_type_alternate:hover {
+    border-color: var(--border-hover-color);
+}
+
+.button_type_alternate:hover:disabled,
+.button_type_alternate:active {
+    border-color: var(--border-color);
+}
