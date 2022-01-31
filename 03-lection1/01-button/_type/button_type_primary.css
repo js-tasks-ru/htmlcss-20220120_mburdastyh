@@ -1,17 +1,13 @@
 .button_type_primary {
-    --primary-color: #4263EB;
-    --primary-hover-color: #2342C0;
-    --text-color: var(--white);
-
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color: var(--primary-button);
+    color: var(--primary-text);
 }
 
 .button_type_primary:hover {
-    background-color: var(--primary-hover-color);
+    background-color: var(--primary-button-hover);
 }
 
 .button_type_primary:hover:disabled,
 .button_type_primary:active {
-    background-color: var(--primary-color);
+    background-color: var(--primary-button);
 }

@@ -1,17 +1,13 @@
 .button_type_secondary {
-    --secondary-color: var(--purple);
-    --secondary-hover-color: #5028C6;
-    --text-color: var(--white);
-
-    background-color: var(--secondary-color);
-    color: var(--text-color);
+    background-color: var(--secondary-button);
+    color: var(--primary-text);
 }
 
 .button_type_secondary:hover {
-    background-color: var(--secondary-hover-color);
+    background-color: var(--secondary-button-hover);
 }
 
 .button_type_secondary:hover:disabled,
 .button_type_secondary:active {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-button);
 }
