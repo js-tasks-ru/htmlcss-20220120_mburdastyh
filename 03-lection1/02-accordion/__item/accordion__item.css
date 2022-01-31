@@ -1,0 +1,10 @@
+.accordion__item {
+    padding: 24px 32px;
+    max-width: 730px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.accordion__item:not(:last-child) {
+    margin-bottom: 5px;
+}

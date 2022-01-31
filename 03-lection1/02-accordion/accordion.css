@@ -1,1 +1,9 @@
-/* Стилизация аккордеона */
+@import '__item/accordion__item.css';
+@import './__summary/accordion__summary.css';
+@import './__text/accordion__text.css';
+
+.accordion {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
