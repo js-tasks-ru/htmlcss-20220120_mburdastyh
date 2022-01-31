@@ -1,0 +1,13 @@
+.button_type_secondary {
+    background-color: var(--secondary-button);
+    color: var(--primary-text);
+}
+
+.button_type_secondary:hover {
+    background-color: var(--secondary-button-hover);
+}
+
+.button_type_secondary:hover:disabled,
+.button_type_secondary:active {
+    background-color: var(--secondary-button);
+}

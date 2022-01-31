@@ -1,0 +1,14 @@
+.button_type_alternate {
+    border: 1px solid var(--grey-3);
+    background-color: var(--light-background);
+    color: var(--alternate-text);
+}
+
+.button_type_alternate:hover {
+    border-color: var(--black);
+}
+
+.button_type_alternate:hover:disabled,
+.button_type_alternate:active {
+    border-color: var(--grey-3);
+}

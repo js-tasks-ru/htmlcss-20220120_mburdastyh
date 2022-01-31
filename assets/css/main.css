@@ -1,3 +1,4 @@
+@import './normalize.css';
 @import '../fonts/fonts.css';
 
 :root {
@@ -5,7 +6,10 @@
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --purpleC6: #5028C6;
     --blue: #374FC7;
+    --blueEB: #4263EB;
+    --blueC0: #2342C0;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -17,8 +21,18 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --primary-text: var(--white);
+    --alternate-text: var(--black);
+    --light-background: var(--white);
+
+    --primary-button: var(--blueEB);
+    --primary-button-hover: var(--blueC0);
+    --secondary-button: var(--purple);
+    --secondary-button-hover: var(--purpleC6);
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }

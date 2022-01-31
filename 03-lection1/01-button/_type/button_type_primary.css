@@ -1,0 +1,13 @@
+.button_type_primary {
+    background-color: var(--primary-button);
+    color: var(--primary-text);
+}
+
+.button_type_primary:hover {
+    background-color: var(--primary-button-hover);
+}
+
+.button_type_primary:hover:disabled,
+.button_type_primary:active {
+    background-color: var(--primary-button);
+}
